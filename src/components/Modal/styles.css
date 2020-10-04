@@ -1,0 +1,26 @@
+._rtm-container {
+  align-items: center;
+  animation-duration: .5s;
+  animation-name: _rtmFadeOut;
+  background: rgba(70,70,70, .5);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+._rtm-container--open {
+  animation-name: _rtmFadeIn;
+}
+
+@keyframes _rtmFadeIn {
+  from { opacity: 0 }
+  to { opacity:  1 }
+}
+@keyframes _rtmFadeOut {
+  from { opacity: 1 }
+  to { opacity:  0 }
+}

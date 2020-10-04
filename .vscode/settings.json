@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "storybook-static": true,
+    "example/.cache": true
+  },
+  "search.exclude": {
+    "**/dist": true,
+    "**/yarn.lock": true
+  }
+}
