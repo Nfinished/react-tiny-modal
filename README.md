@@ -11,7 +11,7 @@ A super tiny, fully typed, zero dependency modal.
 [![maintainability](https://img.shields.io/codeclimate/maintainability/Nfinished/react-tiny-modal?style=flat-square)](https://codeclimate.com/github/Nfinished/react-tiny-modal)
 [![Code Climate coverage](https://img.shields.io/codeclimate/coverage/Nfinished/react-tiny-modal?style=flat-square)](https://codeclimate.com/github/Nfinished/react-tiny-modal)
 
-React Tiny Modal has absolutely zero opinions about style or content, bring your own! It's just here to deal with the silly portaling, animation, and clicking outside so you don't have to.
+React Tiny Modal has absolutely zero opinions about style or content, bring your own! It's just here to deal with the silly portaling, animations, and clicking outside so you don't have to.
 
 ## API:
 
