@@ -15,7 +15,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "eslint src/* test/ --ext ts --ext tsx",
-    "prepublishOnly": "yarn test && yarn build"
+    "prepublishOnly": "yarn build && yarn test"
   },
   "peerDependencies": {
     "react": ">=16.8"
