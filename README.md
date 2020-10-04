@@ -46,6 +46,7 @@ const [showModal, setShowModal] = React.useState(false)
 ...
 
 <button onClick={() => setShowModal(true)}>open the modal!</button>
+
 <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
   <button onClick={() => setShowModal(false)}>close the modal!</button>
 </Modal>
